@@ -1,0 +1,17 @@
+{
+    "name": "Coverless",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "Remove any cover that block your work automatically.",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "content-script.js"
+            ]
+        }
+    ]
+}
