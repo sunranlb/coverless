@@ -12,11 +12,13 @@
             "matches": [
                 "https://*.csdn.net/*",
                 "https://*.jb51.cc/*",
+                "https://tieba.baidu.com/*",
                 "https://*.zhihu.com/*"
             ],
             "js": [
                 "content-script.js"
-            ]
+            ],
+            "run_at": "document_idle"
         }
     ]
 }
