@@ -10,8 +10,8 @@
     "content_scripts": [
         {
             "matches": [
-                "http://*/*",
-                "https://*/*"
+                "https://*.csdn.net/*",
+                "https://*.zhihu.com/*"
             ],
             "js": [
                 "content-script.js"
