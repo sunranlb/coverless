@@ -11,6 +11,7 @@
         {
             "matches": [
                 "https://*.csdn.net/*",
+                "https://*.jb51.cc/*",
                 "https://*.zhihu.com/*"
             ],
             "js": [
