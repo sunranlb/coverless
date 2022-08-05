@@ -50,11 +50,13 @@
             r(".passport-login-container");
         } else if (host.indexOf('.zhihu.com') >= 0) {
             r(".Modal-wrapper");
+            r('.css-1ynzxqw');
             let html = $$('html');
             html.style.overflow = "";
         } else if (host.indexOf('jb51.cc') >= 0) {
             r("#read-more-wrap");
         } else if (host.indexOf('tieba.baidu.com') >= 0) {
+            // 慎用，貌似也会删除正常点击登录时的弹窗。。。
             r("#tiebaCustomPassLogin")
         }
     }
