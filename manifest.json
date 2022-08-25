@@ -13,6 +13,7 @@
                 "https://*.csdn.net/*",
                 "https://*.jb51.cc/*",
                 "https://tieba.baidu.com/*",
+                "https://enterthegungeon.fandom.com/*",
                 "https://*.zhihu.com/*"
             ],
             "js": [

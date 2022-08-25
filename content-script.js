@@ -57,7 +57,10 @@
             r("#read-more-wrap");
         } else if (host.indexOf('tieba.baidu.com') >= 0) {
             // 慎用，貌似也会删除正常点击登录时的弹窗。。。
-            r("#tiebaCustomPassLogin")
+            r("#tiebaCustomPassLogin");
+        } else if (host.indexOf('enterthegungeon.fandom.com') >= 0) {
+            r('.top-ads-container');
+            r('#incontent_player');
         }
     }
 
